@@ -42,7 +42,7 @@
 
     <main class="w-11/12 mx-auto my-4">
        <section class="mt-6">
-        <h1 class="text-center p-4 font-bold text-3xl">blog</h1>
+        <h1 class="text-center p-4 font-bold text-3xl">Blog</h1>
       <div class="space-y-7">
         <!-- 1 -->
         <div class="bg-white-500 rounded-md  shadow-md p-6">
@@ -53,14 +53,14 @@
             <hr>
             <br>
             <br>
-            <h3 class="text-2xl font-normal leading-10">Dom(Documents  object model)  এ এলিমেন্ট সিলেক্ট করার অনেক উপায় আছে
+            <h3 class="text-2xl font-normal leading-10">There are many ways to select elements in Dom(Documents object model) like getElementById = 
+                select by ID <br> <br>
 
-                যেমন 
-                getElementById = ID দিয়ে সিলেক্ট <br> <br>
-                getElementsByClassName = Class দিয়ে সিলেক্ট <br> <br>
-                getElementsByTagName = Tag name দিয়ে সিলেক্ট <br> <br>
-                querySelector = CSS সিলেক্টর (প্রথম ম্যাচ) 
-                querySelectorAll = CSS সিলেক্টর (সব ম্যাচ)</h3>
+                getElementsByClassName = Select with Class <br> <br>
+               
+                getElementsByTagName = select by Tag name <br> <br>
+               
+                querySelector = CSS Selector (first match) querySelectorAll = CSS Selector (all matches) <br>
             </div>
             <!-- 2 -->
         <div class="bg-white-500 rounded-md p-6 shadow-md">
@@ -70,8 +70,8 @@
         <hr>
         <br>
         <br>
-            <h3 class="text-2xl font-normal leading-10">innerHTML: একটি এলিমেন্টের HTML কন্টেন্ট, যার মধ্যে ট্যাগও অন্তর্ভুক্ত থাকে। <br> <br>
-                innerText: দৃশ্যমান টেক্সট কন্টেন্ট ফেরত দেয়, HTML ট্যাগ বাদ দিয়ে এবং CSS স্টাইল  অনুসরণ করে। <br> <br>
+            <h3 class="text-2xl font-normal leading-10">innerHTML: The HTML content of an element, including tags.<br> <br>
+                innerText: Returns the visible text content, excluding HTML tags and following CSS styles. <br> <br>
                 textContent: এলিমেন্টের সব টেক্সট কন্টেন্ট ফেরত দেয়, গোপন টেক্সটসহ, স্টাইল বা দৃশ্যমানতার পার্থক্য না করে।</h3>
             </div>
             <!-- 3 -->
@@ -84,7 +84,9 @@
         <hr>
         <br>
         <br>
-            <h3 class="text-2xl font-normal leading-10">ইভেন্ট ডেলিগেশন হলো DOM এ একটি কৌশল যেখানে  প্রতিটি উপাদানে আলাদা করে ইভেন্ট লিসেনার সংযুক্ত করার পরিবর্তে একটি প্যারেন্ট উপাদানে একটি ইভেন্ট লিসেনার সংযুক্ত করে। ইভেন্টটি লক্ষ্য উপাদান থেকে প্যারেন্ট উপাদানে "বাবল" হয়, এবং প্যারেন্ট ইভেন্টটি ম্যানেজ করে।</h3>
+            <h3 class="text-2xl font-normal leading-10">Event delegation is a technique in the DOM where an event listener is 
+                attached to a parent element instead of attaching an event listener to each element separately.  The event
+                 "bubbles" from the target element to the parent element, and the parent handles the event.</h3>
             </div>
             <!-- 4 -->
         <div class="bg-white-500 rounded-md p-6 shadow-md">
@@ -112,22 +114,9 @@
             <hr>
             <br>
             <br>
-            <h3 class="text-2xl font-normal leading-10">1. এলিমেন্ট তৈরি করা:
-                javascript
-                Copy
-                Edit
-                let newElement = document.createElement('div'); 
-                newElement.textContent = 'Hello, World!';
-                2. এলিমেন্ট যোগ করা:
-                javascript
-                Copy
-                Edit
-                document.body.appendChild(newElement); 
-                3. এলিমেন্ট মুছে ফেলা:
-                javascript
-                Copy
-                Edit
-                newElement.remove(); </h3>
+            <h3 class="text-2xl font-normal leading-10">1. Creating the element: javascript Copy Edit let newElement = document.createElement('div'); 
+                 newElement.textContent = 'Hello, World!';  2. Adding elements: javascript Copy Edit document.body.appendChild(newElement); 
+                 3. Removing elements: javascript Copy Edit newElement.remove();; </h3>
             </div>
       </div>
        </section>
